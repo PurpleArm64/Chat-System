@@ -1,4 +1,4 @@
-const CACHE_NAME = 'chat-pwa-v.3.2;
+const CACHE_NAME = 'chat-pwa-v.32;
 
 self.addEventListener('install', () => { self.skipWaiting(); });
 self.addEventListener('activate', (event) => { event.waitUntil(self.clients.claim()); });
